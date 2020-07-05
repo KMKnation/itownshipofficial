@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itownship.datt.itownship" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About_iTownship"
+            android:label="@string/title_activity_about_i_township" >
+        </activity>
+        <activity
+            android:name=".Our_Team"
+            android:label="@string/title_activity_our__team" >
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name=".Feature"
+            android:label="@string/title_activity_feature" >
+        </activity>
+        <activity
+            android:name=".Expense_Manager"
+            android:label="@string/title_activity_expense__manager" >
+        </activity>
+        <activity
+            android:name=".Meeting_Manager"
+            android:label="@string/title_activity_meeting__manager" >
+        </activity>
+        <activity
+            android:name=".Resident_Manager"
+            android:label="@string/title_activity_resident__manager" >
+        </activity>
+        <activity
+            android:name=".Websit_Manager"
+            android:label="@string/title_activity_websit__manager" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+/* CSS Document */
+
+#all
+{
+font-family:"Oswald",sans-serif;
+width:480px;
+margin:auto;
+background-color:#FFFFFF;
+}
+
+*
+{
+margin:0px;
+}
+#hader
+{
+width:100%;
+height:100px;
+background-color:#CC6600;
+}
+#hader #h1 ul li
+{
+display:inline;
+}
+#hader #h1 ul li img
+{
+margin-top:9px;
+}
+#hader #h1 ul
+{
+float:left;
+}
+#hader ul li a:hover img
+{
+background-color:#FFFFFF;
+border-radius:25px;
+-webkit-transition-duration:1s;
+}
+#hader #search
+{
+float:left;
+}
+#hader #search form #s
+{
+background-color:#000000;
+color:#FFFFFF;
+margin-top:9px;
+padding:7.5px;
+border:0px;
+width:200px;
+-webkit-transition-property:width;
+-webkit-transition-duration:1s; 
+}
+#hader #search form #s:focus
+{
+width:300px; 
+}
+#hader #search form #b
+{
+background-image:url(img/search-icon.png);
+background-repeat:no-repeat;
+background-position:center;
+background-color:#990000;
+margin-top:9px;
+padding:7.5px;
+width:35px;
+border:0px;
+}

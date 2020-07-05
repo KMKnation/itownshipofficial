@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*VR MAP CSS Document */
+#map{
+	width:100%;
+	height:100%;
+}
+#sitemap {
+    width: 60%;
+    height: 450px;
+    border: 15px solid #9B2727;
+    border-radius: 15px;
+    margin: 5% 20% 5% 20%;
+}
+
+#mapseprator{
+	width:61%;
+	margin: 5% 20% 5% 20%;
+	border-bottom:1px solid #666;
+	
+}
+#vrlink{
+	width:62%;
+    margin: 5% 20% 5% 20%;
+	height:155px;
+	border-bottom:3px inset #9B2727;
+	border-top:3px outset #9B2727;
+	background:#EAEAEA;
+	color:#9B2727;
+}
+
+#vrmap-button{
+	width:10%;
+	height:30px;
+	background:#9B2727;
+	color:white;
+	border: 1px solid #9B2727;
+	border-radius:5px;
+	margin:0% 45% 0% 45%;
+}
+
+#vrlink #vrlogo{
+	width: 14%;
+    height: 80px;
+    border-radius: 44px;
+    border: 3px solid #9B2727;
+    margin: -5% 43% 0% 43%;
+}
+
+#map-events{
+	width:62%;
+    margin: 5% 20% 5% 20%;
+	height:auto;
+	border:3px ridge #9B2727;
+	background:#EAEAEA;
+	color:#9B2727;
+}
+
+#vrmaps{
+	width:250px;
+	height:150px;
+	border:1px solid;
+	border-radius:10px;
+	margin:10px 5px 10px 15px;
+}

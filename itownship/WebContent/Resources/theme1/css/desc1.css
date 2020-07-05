@@ -1,0 +1,97 @@
+#containall
+{
+	margin-bottom:-50px;
+	height:620px;
+	width:1360px;
+}
+#containall #name11 
+{
+	font-size:30px;
+	font-family: "FranchiseRegular","Arial Narrow",Arial,sans-serif;
+    font-weight: bold;
+    color:#e67d00;
+	background-color:#FFFFF;
+	text-align:center;
+	padding-top:20px;
+	height:50px;
+	text-decoration:underline;
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    
+}
+#containall #name11:hover
+{
+	font-size:34px;
+	color:#990000;
+	transition: all 0.5s linear 0s;
+		text-shadow: 1px 1px 3px grey;
+	
+}
+#containall #pic11
+{
+	float:left;
+	box-shadow: 0pt 10px 13px rgba(205, 108, 209, 0.6), 3px 4px 4px 2px #e67d00; inset;
+	border-radius: 15px;
+	margin-top:10px;
+} 
+#containall #pic11 img
+{
+	height:530px;
+	width:696px;
+}
+#containall #pic11 img:hover
+{
+	border-radius:20px;
+	transition: all 0.5s linear 0s;
+
+}
+
+#containall #features11
+{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	height:530px;
+	width:650px;
+	background-color:#FFFFFF;
+    box-shadow: 0pt 10px 13px rgba(205, 108, 209, 0.6), 3px 4px 4px 2px #e67d00; inset;
+	border-radius: 15px;
+    
+}
+#containall .feat11
+{
+	color:#333333;
+	font-size:28px;
+		
+	font-family: "FranchiseRegular","Arial Narrow",Arial,sans-serif;
+    text-decoration:underline;
+	margin-left:30px;
+	padding:10px;
+	padding-top:10px;
+}
+#containall .feat11:hover
+{
+	font-size:32px;
+	color:#990000;
+	font-style:italic;
+	transition: all 0.5s linear 0s;
+	text-shadow: 1px 1px 1px #888888;
+}
+#containall .feat22
+{
+	color:#333333;
+	font-size:20px;
+	font-family: "FranchiseRegular","Arial Narrow",Arial,sans-serif;
+    margin-left:20px;
+	padding:30px;
+	margin-top:-10px;
+	
+	list-style:lower-alpha;
+}
+#containall .feat22 li:hover
+{
+	font-size:20.5px;
+	color:#990000;
+	font-style:italic;
+	transition: all 0.5s linear 0s;
+	
+}

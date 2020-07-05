@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>StudentMVCProject</display-name>
+  <context-param>
+    <param-name>authtoken</param-name>
+    <param-value>AVbS_3EObLbnJGQYctU69CbUKAv4RL-u9R1CgLLc7QwVakfh2vPygbTvMC76uXqurh4GFQmCVBjNrJWJ
+ 	</param-value>
+  </context-param>
+  <context-param>
+    <param-name>posturl</param-name>
+    <param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+  </context-param>
+  <context-param>
+    <param-name>business</param-name>
+    <param-value>kanojiyamayur-facilitator@gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>returnurl</param-name>
+    <param-value>localhost:8079/PaymentGateway/success</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>spring-dispatcher</servlet-name>
+    <servlet-class>
+  					org.springframework.web.servlet.DispatcherServlet
+  		</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spring-dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>

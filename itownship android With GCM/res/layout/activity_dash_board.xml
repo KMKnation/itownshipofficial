@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_itownship"
+        android:id="@+id/itownshipButton"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff790106"
+        android:textSize="22sp"
+        android:onClick="Township"/>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts"
+        android:id="@+id/contactsButton"
+        android:layout_below="@+id/itownshipButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff790106"
+        android:textSize="23sp"
+        android:onClick="Contacts"/>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vr"
+        android:id="@+id/vrButton"
+        android:layout_below="@+id/contactsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff790106"
+        android:textSize="23sp" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/feature"
+        android:id="@+id/featureButton"
+        android:layout_below="@+id/vrButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff790106"
+        android:textSize="23sp"
+        android:onClick="Features"/>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ourteam"
+        android:id="@+id/teamButton"
+        android:layout_below="@+id/featureButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff790106"
+        android:textSize="23sp"
+        android:onClick="Team"/>
+
+</RelativeLayout>

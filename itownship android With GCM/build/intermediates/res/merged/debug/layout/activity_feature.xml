@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.itownship.datt.itownship.Feature"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ftv0"
+        android:id="@+id/textView21"
+        android:layout_marginTop="41dp"
+        android:textColor="#e67d00"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#ff790106"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ftv1"
+        android:id="@+id/button"
+        android:layout_marginTop="50dp"
+        android:textColor="#ff790106"
+        android:textSize="22sp"
+        android:onClick="Expense"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ftv2"
+        android:id="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff790106"
+        android:textSize="22sp"
+        android:onClick="Meeting"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ftv3"
+        android:id="@+id/button3"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff790106"
+        android:textSize="22sp"
+        android:onClick="Resident"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ftv4"
+        android:id="@+id/button4"
+        android:textColor="#ff790106"
+        android:textSize="22sp"
+        android:onClick="Website"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

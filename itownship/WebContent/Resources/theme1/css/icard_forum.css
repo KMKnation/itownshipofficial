@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*  i card CSS Document */
+
+#maincard{
+	margin-top:50px;
+	width:100%;
+	height:100%;
+}
+
+#card{
+		width:90%;
+		margin:auto;
+		border-radius:50px;
+		
+		-webkit-box-shadow: 0px 3px 28px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 3px 28px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 3px 28px 0px rgba(0,0,0,0.75);
+	}
+	
+	#card #i-top{
+		width:100%;
+		height:150px;
+		border-radius:50px 50px 0px 0px;
+	}
+	
+	#card #i-top #i-name{
+		padding:40px;
+		color: #9B2727;
+		font-size: 24px;
+		font-weight: bolder;
+			
+	}
+	
+	
+	#card #i-info{
+		height:40%;
+		background:#9B2727;
+	}
+	
+	#card #i-info #i-photo{
+		height: 100px;
+		width:155px;
+		border: 3px solid #9B2727;
+		border-radius: 40px;
+		margin-top:-50px;
+			
+	}
+	
+	#card #i-bottom #fbicon{
+		border-radius: 5px;
+		width: 50px;
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+	
+	#card #i-bottom #hicon{
+		border-radius: 5px;
+		width: 52px;
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+	
+	
+	#card #i-bottom #twicon{
+		border-radius: 5px;
+		width: 50px;
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+	
+	#card #i-bottom #wicon{
+		border-radius: 5px;
+		width: 50px;
+		margin-top: 5px;
+		margin-left: 20px;
+	}

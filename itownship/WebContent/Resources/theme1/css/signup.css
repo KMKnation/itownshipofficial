@@ -1,0 +1,160 @@
+#wrappersu {
+    right: 0px;
+    min-height: 530px;
+    margin: 0px auto;
+    width: 600px;
+    
+	margin-bottom:-30px;
+	margin-top:15px;
+}
+#register{
+    top: 0px;
+    width: auto;
+    padding: 18px 6% 60px;
+    margin: 0px 0px 35px;
+    background: #F7F7F7 none repeat scroll 0% 0%;
+    border: 1px solid rgba(250, 100 ,100, 0.8);
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 5px;
+}
+form
+{
+	margin:0px;
+	padding:0px;
+}
+#wrappersu h1 {
+    font-size: 48px;
+    color: #066A75;
+    padding: 2px 0px 30px;
+    font-family: "FranchiseRegular","Arial Narrow",Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#wrappersu h1:hover
+{
+	color:#993300;
+	transition: all 1.5s linear 0s;
+	
+}
+hr
+{
+	border-bottom-style:dotted;
+	margin-top:-15px;
+	margin-left:110px;
+	border-bottom-color:#0066FF;
+	width:300px;
+	background-color:#993300;
+	margin-bottom:20px;
+}
+#wrappersu p {
+    margin-bottom: 15px;
+	color: #405C60;
+}
+#wrappersu label {
+    color: #405C60;
+    position: relative;
+}
+#wrappersu .c:not([type="checkbox"]) {
+    width: 70%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 10px;
+    border: 1px solid #B2B2B2;
+    box-sizing: content-box;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    transition: all 0.2s linear 0s;
+}
+#wrappersu .c:hover
+{
+	width:90%;
+	transition: all 0.5s linear 0s;
+	border-bottom-color:#993300;
+
+	
+}
+
+#wrappersu .a{
+	color: #405C60;
+    width: 8%;
+    margin-top: 4px;
+	margin-left:40px;
+	margin-bottom:15px;
+}
+#wrappersu .b:not([type="checkbox"]) {
+	color: #405C60;
+    width: 25%;
+    margin-top: 4px;
+	margin-left:3px;
+    padding: 10px 5px 10px 10px;
+    border: 1px solid #B2B2B2;
+    box-sizing: content-box;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    transition: all 0.2s linear 0s;
+}
+#wrappersu .b:hover
+{
+	border-bottom-color:#993300;
+	    transition: all 0.4s linear 0s;
+
+}
+ p.signin.button {
+    text-align: right;
+    margin: 5px 0px;
+}
+#wrappersu p.button input {
+    width: 30%;
+	cursor: pointer;
+    background: #3D9DB3 none repeat scroll 0% 0%;
+    padding: 8px 3px;
+	margin-right:30px;
+    font-family: "BebasNeueRegular","Arial Narrow",Arial,sans-serif;
+    color: #FFF;
+    font-size: 24px;
+    border: 1px solid #1C6C7A;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px 3px #FEFEFE, 0px 5px 3px 3px #D2D2D2;
+    transition: all 0.2s linear 0s;
+	float:right;
+}
+#wrappersu p.button input:hover{
+		background-color:#993300;
+		transition: all 0.8s linear 0s;
+		border-radius:10px;	
+	}
+p.change_link {
+    
+    color: #7F7C7C;
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px;
+    font-size: 16px;
+    border-top: 1px solid #DBE5E8;
+    border-radius: 0px 0px 5px 5px;
+    background: transparent repeating-linear-gradient(-45deg, #F7F7F7, #F7F7F7 15px, #E1EAEB 15px, #E1EAEB 30px, #F7F7F7 30px) repeat scroll 0% 0%;
+}
+#wrappersu p.change_link a {
+    display: inline-block;
+    font-weight: bold;
+    background: #F7F8F1 none repeat scroll 0% 0%;
+    padding: 2px 6px;
+    color: #1DA2C1;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #CBD5D6;
+    transition: all 0.4s linear 0s;
+}
+#wrappersu p.change_link a:hover
+{
+	color:#993300;
+		    transition: all 0.4s linear 0s;
+
+}
+#wrappersu 
+{
+	margin-bottom: 50px;
+}
